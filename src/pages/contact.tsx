@@ -6,6 +6,7 @@ import contactStyles from '../styles/contact.module.css'
 
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
+import pixiv from '../components/svgs/pixiv'
 import Envelope from '../components/svgs/envelope'
 import LinkedIn from '../components/svgs/linkedin'
 
@@ -14,6 +15,11 @@ const contacts = [
     Comp: Twitter,
     alt: 'twitter icon',
     link: 'https://twitter.com/eveilpaint',
+  },
+  {
+    Comp: pixiv,
+    alt: 'pixiv icon',
+    link: 'https://www.pixiv.net/users/36977022',
   },
 ]
 
@@ -26,11 +32,6 @@ export default () => (
       </div>
 
       <h1 style={{ marginTop: 0 }}>Contact</h1>
-
-      <div className={contactStyles.name}>
-        Eveil - Illustrator @{' '}
-        <ExtLink href="https://comet-stone.com">Comet Stone.</ExtLink>
-      </div>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {

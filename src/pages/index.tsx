@@ -16,21 +16,11 @@ export default () => (
         alt="Vercel + Notion"
       />
       <h1>Comet Stone.</h1>
-      <h2>
-        Blazing Fast Notion Blog with Next.js'{' '}
-        <ExtLink
-          href="https://github.com/vercel/next.js/issues/9524"
-          className="dotted"
-          style={{ color: 'inherit' }}
-        >
-          SSG
-        </ExtLink>
-      </h2>
+      <h2>様々な葛藤の中で生きていくのだ。</h2>
 
       <div className="explanation">
-        <p>
-          説明概要欄になります。自己紹介的な？
-        </p>
+        <h3>About　</h3>
+        <p>そういうことですよ</p>
       </div>
     </div>
   </>
