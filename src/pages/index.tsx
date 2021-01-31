@@ -9,13 +9,13 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
+      <h1>Comet Stone.</h1>
       <img
         src="/vercel-and-notion.png"
         height="85"
         width="250"
         alt="Vercel + Notion"
       />
-      <h1>Comet Stone.</h1>
       <h2>様々な葛藤の中で生きていくのだ。</h2>
 
       <div className="explanation">

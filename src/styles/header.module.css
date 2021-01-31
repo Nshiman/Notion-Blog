@@ -1,7 +1,7 @@
 .header {
   display: block;
   min-height: 64px;
-  padding: 2em 0;
+  padding: 1em 0;
   text-align: center;
   letter-spacing: -0.02em;
 }
@@ -17,17 +17,17 @@
 }
 
 .header :global(a) {
-  color: var(--accents-3);
+  color: #505168;
   font-weight: 400;
 }
 
 .header :global(a.active) {
-  color: #0070f3;
+  color: #ff0062;
   font-weight: 600;
 }
 
 @media (max-width: 600px) {
   .header {
-    padding: .5em 0 2em;
+    padding: 1em 1em 1em 1em;
   }
 }

@@ -1,0 +1,15 @@
+{
+  "ast": null,
+  "code": "var _this = this,\n    _jsxFileName = \"/home/rollcake-debian/notion-blog/src/pages/index.tsx\";\n\nimport React from \"react\";\nvar __jsx = React.createElement;\n//import Link from 'next/link'\nimport Header from '../components/header';\nimport sharedStyles from '../styles/shared.module.css';\nexport default (function () {\n  return __jsx(React.Fragment, null, __jsx(Header, {\n    titlePre: \"Home\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 11,\n      columnNumber: 5\n    }\n  }), __jsx(\"div\", {\n    className: sharedStyles.layout,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 12,\n      columnNumber: 5\n    }\n  }, __jsx(\"h1\", {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 7\n    }\n  }, \"Comet Stone.\"), __jsx(\"h2\", {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 14,\n      columnNumber: 7\n    }\n  }, \"\\u69D8\\u3005\\u306A\\u845B\\u85E4\\u306E\\u4E2D\\u3067\\u751F\\u304D\\u3066\\u3044\\u304F\\u306E\\u3060\\u3002\"), __jsx(\"div\", {\n    className: \"explanation\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16,\n      columnNumber: 7\n    }\n  }, __jsx(\"h3\", {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17,\n      columnNumber: 9\n    }\n  }, \"About\\u3000\"), __jsx(\"p\", {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 18,\n      columnNumber: 9\n    }\n  }, \"\\u305D\\u3046\\u3044\\u3046\\u3053\\u3068\\u3067\\u3059\\u3088\"))));\n});",
+  "map": {
+    "version": 3,
+    "sources": ["/home/rollcake-debian/notion-blog/src/pages/index.tsx"],
+    "names": ["Header", "sharedStyles", "layout"],
+    "mappings": ";;;;;AAAA;AACA,OAAOA,MAAP,MAAmB,sBAAnB;AAIA,OAAOC,YAAP,MAAyB,6BAAzB;AAGA,gBAAe;AAAA,SACb,4BACE,MAAC,MAAD;AAAQ,IAAA,QAAQ,EAAC,MAAjB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,EAEE;AAAK,IAAA,SAAS,EAAEA,YAAY,CAACC,MAA7B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,oBADF,EAEE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,wGAFF,EAIE;AAAK,IAAA,SAAS,EAAC,aAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBADF,EAEE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,8DAFF,CAJF,CAFF,CADa;AAAA,CAAf",
+    "sourcesContent": [
+      "//import Link from 'next/link'\nimport Header from '../components/header'\nimport ExtLink from '../components/ext-link'\nimport Features from '../components/features'\nimport GitHub from '../components/svgs/github'\nimport sharedStyles from '../styles/shared.module.css'\n\n\nexport default () => (\n  <>\n    <Header titlePre=\"Home\" />\n    <div className={sharedStyles.layout}>\n      <h1>Comet Stone.</h1>\n      <h2>様々な葛藤の中で生きていくのだ。</h2>\n\n      <div className=\"explanation\">\n        <h3>About　</h3>\n        <p>そういうことですよ</p>\n      </div>\n    </div>\n  </>\n)\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

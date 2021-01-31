@@ -1,0 +1,31 @@
+{
+  "ast": null,
+  "code": "var _jsxFileName = \"/home/rollcake-debian/notion-blog/src/pages/contact.tsx\";\nimport React from \"react\";\nvar __jsx = React.createElement;\nimport Header from '../components/header';\nimport ExtLink from '../components/ext-link';\nimport sharedStyles from '../styles/shared.module.css';\nimport contactStyles from '../styles/contact.module.css';\nimport Twitter from '../components/svgs/twitter';\nimport pixiv from '../components/svgs/pixiv';\nconst contacts = [{\n  Comp: Twitter,\n  alt: 'twitter icon',\n  link: 'https://twitter.com/eveilpaint'\n}, {\n  Comp: pixiv,\n  alt: 'pixiv icon',\n  link: 'https://www.pixiv.net/users/36977022'\n}];\nexport default (() => __jsx(React.Fragment, null, __jsx(Header, {\n  titlePre: \"Contact\",\n  __self: this,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 28,\n    columnNumber: 5\n  }\n}), __jsx(\"div\", {\n  className: sharedStyles.layout,\n  __self: this,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 29,\n    columnNumber: 5\n  }\n}, __jsx(\"div\", {\n  className: contactStyles.avatar,\n  __self: this,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 30,\n    columnNumber: 7\n  }\n}, __jsx(\"img\", {\n  src: \"/avatar.png\",\n  alt: \"avatar with letters JJ\",\n  height: 60,\n  __self: this,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 31,\n    columnNumber: 9\n  }\n})), __jsx(\"h1\", {\n  style: {\n    marginTop: 0\n  },\n  __self: this,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 34,\n    columnNumber: 7\n  }\n}, \"Contact\"), __jsx(\"div\", {\n  className: contactStyles.links,\n  __self: this,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 36,\n    columnNumber: 7\n  }\n}, contacts.map(({\n  Comp,\n  link,\n  alt\n}) => {\n  return __jsx(ExtLink, {\n    key: link,\n    href: link,\n    \"aria-label\": alt,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 39,\n      columnNumber: 13\n    }\n  }, __jsx(Comp, {\n    height: 32,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 40,\n      columnNumber: 15\n    }\n  }));\n})))));",
+  "map": {
+    "version": 3,
+    "sources": ["/home/rollcake-debian/notion-blog/src/pages/contact.tsx"],
+    "names": [
+      "Header",
+      "ExtLink",
+      "sharedStyles",
+      "contactStyles",
+      "Twitter",
+      "pixiv",
+      "contacts",
+      "Comp",
+      "alt",
+      "link",
+      "layout",
+      "avatar",
+      "marginTop",
+      "links",
+      "map"
+    ],
+    "mappings": ";;;AAAA,OAAOA,MAAP,MAAmB,sBAAnB;AACA,OAAOC,OAAP,MAAoB,wBAApB;AAEA,OAAOC,YAAP,MAAyB,6BAAzB;AACA,OAAOC,aAAP,MAA0B,8BAA1B;AAGA,OAAOC,OAAP,MAAoB,4BAApB;AACA,OAAOC,KAAP,MAAkB,0BAAlB;AAIA,MAAMC,QAAQ,GAAG,CACf;AACEC,EAAAA,IAAI,EAAEH,OADR;AAEEI,EAAAA,GAAG,EAAE,cAFP;AAGEC,EAAAA,IAAI,EAAE;AAHR,CADe,EAMf;AACEF,EAAAA,IAAI,EAAEF,KADR;AAEEG,EAAAA,GAAG,EAAE,YAFP;AAGEC,EAAAA,IAAI,EAAE;AAHR,CANe,CAAjB;AAaA,gBAAe,MACb,4BACE,MAAC,MAAD;AAAQ,EAAA,QAAQ,EAAC,SAAjB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EADF,EAEE;AAAK,EAAA,SAAS,EAAEP,YAAY,CAACQ,MAA7B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GACE;AAAK,EAAA,SAAS,EAAEP,aAAa,CAACQ,MAA9B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GACE;AAAK,EAAA,GAAG,EAAC,aAAT;AAAuB,EAAA,GAAG,EAAC,wBAA3B;AAAoD,EAAA,MAAM,EAAE,EAA5D;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EADF,CADF,EAKE;AAAI,EAAA,KAAK,EAAE;AAAEC,IAAAA,SAAS,EAAE;AAAb,GAAX;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,aALF,EAOE;AAAK,EAAA,SAAS,EAAET,aAAa,CAACU,KAA9B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GACGP,QAAQ,CAACQ,GAAT,CAAa,CAAC;AAAEP,EAAAA,IAAF;AAAQE,EAAAA,IAAR;AAAcD,EAAAA;AAAd,CAAD,KAAyB;AACrC,SACE,MAAC,OAAD;AAAS,IAAA,GAAG,EAAEC,IAAd;AAAoB,IAAA,IAAI,EAAEA,IAA1B;AAAgC,kBAAYD,GAA5C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,MAAC,IAAD;AAAM,IAAA,MAAM,EAAE,EAAd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,CADF;AAKD,CANA,CADH,CAPF,CAFF,CADF",
+    "sourcesContent": [
+      "import Header from '../components/header'\nimport ExtLink from '../components/ext-link'\n\nimport sharedStyles from '../styles/shared.module.css'\nimport contactStyles from '../styles/contact.module.css'\n\nimport GitHub from '../components/svgs/github'\nimport Twitter from '../components/svgs/twitter'\nimport pixiv from '../components/svgs/pixiv'\nimport Envelope from '../components/svgs/envelope'\nimport LinkedIn from '../components/svgs/linkedin'\n\nconst contacts = [\n  {\n    Comp: Twitter,\n    alt: 'twitter icon',\n    link: 'https://twitter.com/eveilpaint',\n  },\n  {\n    Comp: pixiv,\n    alt: 'pixiv icon',\n    link: 'https://www.pixiv.net/users/36977022',\n  },\n]\n\nexport default () => (\n  <>\n    <Header titlePre=\"Contact\" />\n    <div className={sharedStyles.layout}>\n      <div className={contactStyles.avatar}>\n        <img src=\"/avatar.png\" alt=\"avatar with letters JJ\" height={60} />\n      </div>\n\n      <h1 style={{ marginTop: 0 }}>Contact</h1>\n\n      <div className={contactStyles.links}>\n        {contacts.map(({ Comp, link, alt }) => {\n          return (\n            <ExtLink key={link} href={link} aria-label={alt}>\n              <Comp height={32} />\n            </ExtLink>\n          )\n        })}\n      </div>\n    </div>\n  </>\n)\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}
